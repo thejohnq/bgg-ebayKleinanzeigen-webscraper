@@ -10,7 +10,7 @@ bgg_username = ""
 splits = {"–","("}
 
 
-last_days = input("Look for listings of last x days. x=")
+last_days = int(input("Look for listings of last x days. x=") or "0")
 start_date = datetime.datetime.today() - datetime.timedelta(days=int(last_days))
 print()
 
