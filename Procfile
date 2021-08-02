@@ -1,1 +1,1 @@
-web gunicorn
+web gunicorn bgg-ebay-scraper
